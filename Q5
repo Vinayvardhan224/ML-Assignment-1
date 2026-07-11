@@ -1,0 +1,8 @@
+import random
+import statistics
+numbers = [random.randint(100, 150) for _ in range(100)]
+print("Numbers:")
+print(numbers)
+print("Mean:", statistics.mean(numbers))
+print("Median:", statistics.median(numbers))
+print("Mode:", statistics.mode(numbers))
